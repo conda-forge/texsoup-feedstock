@@ -1,6 +1,6 @@
 {% set name = "TexSoup" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "da332b720b5f442fd3736b9339acbc13ccaa16466f9aa0cda6821bf090f9b1ed" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "964a71f44f9cdcd62a04de3acba055f5f6055bbc8e19c9b94d005a3195e2e656" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ about:
   home: https://github.com/alvinwan/TexSoup
   license: BSD-2-Clause
   license_family: BSD
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: |
     Parses valid LaTeX and provides a variety of BeautifulSoup-esque methods and
     Pythonic idioms for iterating and searching the parse tree.
