@@ -5,7 +5,7 @@ Home: https://github.com/alvinwan/TexSoup
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Parses valid LaTeX and provides a variety of BeautifulSoup-esque methods and
 Pythonic idioms for iterating and searching the parse tree.
