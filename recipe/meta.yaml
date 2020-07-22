@@ -1,6 +1,6 @@
 {% set name = "TexSoup" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "f5759628df491d93fea1420ad638d1d2aece621f053850d2f023ee6c9c041e57" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "ccacd864f13a195561b6d392a1a233626a562522f90cd228066eef98bc02cbc9" %}
 
 package:
   name: {{ name|lower }}
