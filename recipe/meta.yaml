@@ -1,6 +1,6 @@
 {% set name = "TexSoup" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "3f6b2ad0abe3688a6656f544c1ba04d0eb25f423f8c377b7369f9ce061ddb70b" %}
+{% set version = "0.3.2" %}
+{% set sha256 = "2da4480985c7b88b7c01418f6b02821140390fe9db63dfd993eac0084c1853fa" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
